@@ -14,5 +14,4 @@ jobs:
         with:
           version: "latest"
           verb: call
-          module: .
-          args: publish
+          args: publish --source=.
